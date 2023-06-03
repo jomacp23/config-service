@@ -15,8 +15,8 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/Users/josemanuel.cruz/CNS-GIT/config-repo
-          default-label: master
+          uri: https://github.com/jomacp23/config-repo.git
+          default-label: main
           timeout: 5
           clone-on-start: true
           force-pull: true
